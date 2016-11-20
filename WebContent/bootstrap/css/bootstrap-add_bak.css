@@ -1,0 +1,146 @@
+body{
+	font-family:'Microsoft YaHei',sans-serif;
+}
+.navbar-default{
+	background-color: #fff;
+	border: none;
+	box-shadow:0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand{
+	font-size: 30px;
+	font-weight: bold;
+	color: #40D2B1;
+	height: 70px;
+	line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-toggle:hover{
+    border-color: #40D2C2;
+    background-color: rgb(69,210,184);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1C9982;
+}
+.navbar-toggle {
+    margin-top: 18px;
+}
+.mal-icon {
+    background: #40D2B1;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+/*home*/
+#home{
+	margin-top:70px;
+	/*background: url("../../../images/home-bg.jpg");*/
+	background-size:cover;
+	color:#ffffff;
+	text-align:center;
+	weight:100%;
+	/* height:500px; */
+}
+/* lvjing */
+.lvjing{
+	width: 100%;
+	height: 100.1%;
+	background: rgba(0,0,0,0.7);
+	padding-top: 20px;
+}
+#home h1{
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+#home p {
+    font-weight: 400;
+    line-height: 35px;
+}
+
+#home img {
+	margin-top:30px;
+	display: inline-block;
+}
+
+/* bbs */
+#bbs{
+	padding: 80px 0;
+	text-align: center;
+}
+#bbs .col-md-4 {
+    padding: 15px;
+}
+#bbs .col-md-4:hover {
+    padding: 15px;
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+#bbs a{/* 让超链接的下划线颜色是深色 */
+	color: #212121;
+	text-decoration: none;/* 让超链接的下划线不显示 */
+}
+#bbs a:hover{
+	/* 控制鼠标路过时的样式 */
+}
+#bbs img{
+	margin: 0 auto;
+}
+#bbs h3 {
+    font-weight: bold;
+}
+/* html5 */
+#html5{
+	background: #f8f8f8;
+	padding:80px 0;
+}
+#html5 h2{
+	font-weight: bold;
+}
+#html5 p{
+	line-height: 40px;
+}
+.sizer {
+  width: 300px;
+  height: 10px;
+}
+.embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 9%;
+    border: 0;
+}
+.col-md-1 .container{
+    margin-left: -90px;
+    margin-top: -10px;
+}
+
+.right {
+    padding: 20px 0;
+}
+.left {
+    padding-top: 20px;
+}
+.header-right {
+    margin-top: 20px;
+}
+/*.carousel-inner > .item.next.left{
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}*/
+.carousel-inner > .img{
+    width="100%";
+}
